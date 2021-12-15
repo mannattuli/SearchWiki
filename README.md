@@ -1,4 +1,4 @@
-# Wiki-search
+# searchwiki
 
 ## Command
 

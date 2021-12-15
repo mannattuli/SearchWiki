@@ -1,6 +1,7 @@
 {
-  "name": "wiki-search",
-  "displayName": "wiki-search",
+  "name": "searchwiki",
+  "displayName": "searchwiki",
+  "publisher": "mannattuli",
   "description": "search wiki in vscode!",
   "version": "0.0.1",
   "engines": {
@@ -17,7 +18,7 @@
     "commands": [
       {
         "command": "extension.searchwiki",
-        "title": "Search Wiki"
+        "title": "SearchWiki"
       }
     ]
   },
@@ -34,7 +35,8 @@
     "@types/node-fetch": "^2.3.3",
     "tslint": "^5.12.1",
     "typescript": "^3.3.1",
-    "vscode": "^1.1.28"
+    "vscode": "^1.1.28",
+    "whatwg-url": "^11.0.0"
   },
   "dependencies": {
     "node-fetch": "^2.5.0"
